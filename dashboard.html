@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Demo Vue.js</title>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
+    <link rel="stylesheet" id="stylesheet" href="css/style.css">
+    
+</head>
+
+<body>
+
+    <main>
+
+        
+
+        <div class="sidebar" id="sidebar">
+
+            <!-- Components for Profile and Contextual Menu -->
+            <div id="profile">
+                <profile></profile>
+            </div>
+            <div id="dashmenu">
+                <dash-menu></dash-menu>
+            </div>
+
+        </div>
+
+
+
+
+        <div class="area"></div>
+        <nav class="main-menus">
+            <li class="has">
+                <a href="#">
+
+                    <span class="nav-text">
+                            
+                        </span>
+                </a>
+
+            </li>
+            <ul>
+                <li>
+                    <a href="http://justinfarrow.com">
+                        <i class="fa fa-tachometer fa-2x"></i>
+                        <span class="nav-text">
+                            Dashboard
+                        </span>
+                    </a>
+
+                </li>
+                <li class="hass">
+                    <a href="#">
+                        <i class="fa fa-eye fa-2x"></i>
+                        <span class="nav-text">
+                            Drone Profile
+                        </span>
+                    </a>
+
+                </li>
+                <li class="has-subnav">
+                    <a href="#">
+                        <i class="fa fa-bar-chart-o 2x"></i>
+                        <span class="nav-text">
+                            Daily Reports
+                        </span>
+                    </a>
+
+                </li>
+                <li class="has-subnav">
+                    <a href="#">
+                        <i class="fa fa-paper-plane fa-2x"></i>
+                        <span class="nav-text">
+                            Messages
+                        </span>
+                    </a>
+
+                </li>
+                <li class="has-subnav">
+                    <a href="#">
+                        <i class="fa fa-map-marker fa-2x"></i>
+                        <span class="nav-text">
+                            Messages
+                        </span>
+                    </a>
+
+                </li>
+
+                </a>
+                </li>
+            </ul>
+        </nav>
+
+
+
+        <nav class="navbar" id="navbar">
+            
+            
+            <img src="img/logo.png">
+
+           
+            <!-- components for menus -->
+            <div id="mainmenu">
+                <main-menu></main-menu>
+            </div>
+            <div id="minimenu">
+                <mini-menu></mini-menu>
+            </div>
+            <button id="swapBtn">CHANGE THEME</button>
+        </nav>
+
+        <section class="page" id="page">
+
+            <!-- components for specific pages -->
+            <div id="droneProfile">
+
+                <div id="workflow" class="workflow-container">
+
+                    <canvas class="workflow-chart" id="myChart" width="500" height="300"></canvas>
+
+                </div>
+
+
+
+                <h2> WALL-E DRONES</h2>
+                <img src="img/droney.png">
+                <h3>STATUS:</h3>
+                <p> Model 66 departing sharply at 7:45pm <br>from location A <br>delivering perishable <br>food supplies to location B.</p>
+
+                <div class="floating">
+                    <div class="floati">
+                        <h6>MODEL NO:</h6>
+                        <h5>66</h5>
+                    </div>
+
+                    <div class="floati">
+                        <h6>SUCCESS RATE:</h6>
+                        <h5>85%</h5>
+                    </div>
+
+                    <div class="floati">
+                        <h6>SERVICED:</h6>
+                        <h5>2 SEP 2017</h5>
+                    </div>
+
+                    <a href="#" class="request">REQUEST DRONE</a>
+                </div>
+            </div>
+                    
+                
+
+
+            <div id="statistics">
+
+                <div id="graph" class="graph-container">
+                    <h2> DAILY REPORT</h2>
+                         <p>Altitude Graph</p>
+
+                    <canvas class="graph-chart" id="myChart2" width="500" height="300"></canvas>
+                         
+                    
+                    <div id="drones">
+                    <img src="img/blue.png">
+                     <img src="img/red.png">
+                        <img src="img/green.png">
+                    </div>
+                    
+                </div>
+
+            </div>
+
+
+
+        </section>
+    </main>
+
+
+<!--    <script src='text/javascript' src='Chart.min.js'></script>-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.0/Chart.min.js"></script>
+    <script src="js/vue.js"></script>
+    <script src="js/profile.js"></script>
+    <script src="js/dashmenu.js"></script>
+    <script src="js/mainmenu.js"></script>
+    <script src="js/minimenu.js"></script>
+    <script src="js/workflowTwo.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/drone-profile.js"></script>
+    <script src="js/stats.js"></script>
+    
+    <script src="js/workflowTwo.js"></script>
+<script src="js/swap.js"></script>
+    
+
+
+
+</body>
+
+</html>

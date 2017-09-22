@@ -1,0 +1,838 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h4, h5, h6 {
+  font-family: font-family: 'Ubuntu', sans-serif;
+  font-size: 20px;
+  color: whitesmoke;
+
+}
+
+p {
+  font-family: 'Ubuntu', sans-serif; 
+  font-size: 16px;
+  color: whitesmoke;
+  margin-left: 22%;
+
+   
+}
+
+menus {
+    float: left;
+           
+    &:after {
+        
+        content: '';
+        display: block;
+        float: none;
+        clear: both;
+    }
+}
+
+#login{
+background-image: url(../img/loginback.png);
+height: 100%;
+background-size: cover;
+background-repeat: no-repeat;
+height: 1080px;
+}
+
+form{
+    background-color: rgba(0,0,62,0.7);
+    width: 500px;
+    height: 350px;
+    border-radius: 25px;
+    margin: 0 auto;
+    position: relative;
+    top: 250px;
+}
+
+form input{
+    width: 100%;
+  display: block;
+  text-align: center;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  padding: 20px;
+  font-size: 17px;
+}
+
+form img{
+    width: 180px;
+    position: relative;
+    left: 140px;
+    top: 20px;
+    
+    
+}
+
+.login h2{
+    font-family: 'Ubuntu' sans-serif;
+    text-align: center;
+    
+}
+
+input[type="password"], input[type="text"] {
+  border: 1.5px solid #34FAC9;
+  border-radius: 10px;
+font-family: 'Ubuntu', sans-serif;
+  box-sizing: border-box;
+  height: 39px;
+  margin: 31px 0 0 29px;
+  padding-left: 37px;
+  transition: box-shadow 0.3s;
+  width: 350px;
+  color: none;
+position: relative;
+left: 40px;
+}
+
+input#username{
+    font-family: 'Ubuntu', sans-serif;
+   
+}
+
+
+input#placeholder{
+    font-family: 'Ubuntu', sans-serif;
+    color: aqua;
+   
+}
+
+input[type="text"], textarea {
+
+  background-color : transparent; 
+
+}
+a.forgot-link{
+    font-family: 'Ubuntu', sans-serif;
+    color: #34FAC9;
+    position: relative;
+    left: 310px;
+    top: 35px;
+    font-size: 14px;
+}
+
+
+
+
+
+input[type="password"], textarea {
+
+  background-color : transparent; 
+
+}
+
+input.btn.success{
+    background: #0746AA;
+    position: relative;
+    top: 30px;
+    width: 350px;
+    left: 70px;
+    height: 50px;
+    
+    
+}
+
+.btn.success:hover{
+    background-color: rgba(0,0,62, 0.7); 
+}
+          
+
+main {
+  display: block;
+  box-sizing: inherit;
+  width: 100%;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+}
+
+
+
+
+div.profile-container{
+    background-color: #0746AA;
+    height: 280px;
+    padding-left: 60px;
+    padding-top: 25px;
+    
+}
+
+.image-container img{
+    margin-left: 50px;
+}
+
+
+main .navbar {
+  position: fixed;
+  width: 82%;
+  height: 100px;
+  top: 0;
+  right: 0;
+  background: #303249;
+  margin-left: 100px;
+  padding-left: 90px;
+}
+
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  main .navbar {
+    width: 75%;
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 640px) {
+  main .navbar {
+    position: static;
+    width: 100%;
+  }
+}
+
+main .page {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 100px;
+  left: 18.01%;
+  background-color: #04025C; 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  main .page {
+    width: 75%;
+    left: 25%;
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 640px) {
+  main .page {
+    position: static;
+    width: 100%;
+  }
+}
+
+.navbar ul.tabs {
+  float: left;
+  margin:
+  padding: 0;
+           
+    &:after {
+        
+        content: '';
+        display: block;
+        float: none;
+        clear: both;
+    }
+
+}
+
+
+nav li {
+    
+    padding-left: 20px;
+    float: left;
+    list-style-type: none; 
+       
+           
+    &:after {
+        
+        content: '';
+        display: block;
+        float: none;
+        clear: both;
+    }
+}
+
+
+.navbar i{
+   list-style-type: none; 
+   color: #34FAC9;
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+    left: 1100px;
+    top: -25px;
+
+   
+}
+
+div#droneProfile{
+    background-color: rgba( 24, 42, 99, 5);
+    width: 750px;
+    height: 440px;
+    border: 1px solid #7DE2EF ;
+    margin: 20px;
+    -moz-box-shadow:    3px 3px 5px 6px #0D1D44;
+  -webkit-box-shadow: 3px 3px 5px 6px #0D1D44;
+  box-shadow:         3px 3px 5px 6px #0D1D44;
+float: left;
+  
+         
+    &:after {
+        
+        content: '';
+        display: block;
+        float: none;
+        clear: both;
+    }
+    
+}
+
+#droneProfile h2{
+    position: relative;
+    left: 40px;
+    top: 20px;
+}
+
+#droneProfile h3{
+    color: #34FAC9;
+    font-size: 14px;
+    position: relative;
+    left: 40px;
+    top: 40px;
+}
+
+#droneProfile img{
+    width: 200px;
+    position: relative;
+    left: 40px;
+    top: 40px;
+    
+}
+
+#droneProfile p{
+    font-size: 14px;
+    margin:0;
+    position: relative;
+    top: 40px;
+    left: 40px;
+}
+
+
+
+
+
+canvas#myChart.workflow-chart.chartjs{
+ 
+   
+}
+
+
+
+.profiles{
+    background-color: aqua;
+}
+
+.navbar img{
+    padding: 10px;
+}
+
+.navbar i:hover{
+    color: aqua;
+}
+
+.fa-bell:before {
+    content: "\f0f3";
+    list-style: none;
+    text-decoration: underline;
+    
+}
+
+.fa-gear:before, .fa-cog:before {
+    content: "\f013";
+    text-decoration: underline;
+    list-style-type: none;
+    margin-right: -50px;
+}
+
+
+
+.navbar ul.tabs li {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar ul.tabs li a {
+  color: #EEFFFA;
+  background: #182A63;
+  text-decoration: none;
+  position: relative;
+  left: 1100px;
+  bottom: 10px;
+  padding: 10px;
+}
+
+.navbar ul.tabs li a:hover{
+    color: #34FAC9;
+}
+
+.navbar img{
+    position:relative;
+    left: 50px;
+    top: 10px;
+}
+
+.navbar ul.tabs li a.active {
+  color: #EEFFFA;
+  background: #0746AA;
+  
+   
+   
+}
+
+.sidebar {
+  display: block;
+  position: fixed;
+  width: 15%;
+  height: 100%;
+  left: 62px;
+  top: 0;
+  background: #606376;
+  box-sizing: inherit;
+z-index: 1;
+}
+
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .sidebar {
+    width: 25%;
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 640px) {
+  .sidebar {
+    position: static;
+    width: 100%;
+  }
+}
+
+.sidebar .dash-menu {
+  display: block;
+  box-sizing: inherit;
+  margin: 25px 0;
+  padding: 0;
+  width: 100%;
+}
+
+.sidebar .dash-menu h3 {
+  display: block;
+  box-sizing: inherit;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 16pt;
+  font-weight: 700;
+  color: #fff;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+ 
+}
+
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .sidebar .dash-menu h3 {
+    font-size: 12pt;
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 640px) {
+  .sidebar .dash-menu h3 {
+    font-size: 10pt;
+  }
+}
+
+.sidebar .dash-menu ul {
+  display: block;
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.sidebar .dash-menu ul li {
+  display: block;
+  box-sizing: inherit;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+ 
+}
+
+
+.sidebar .dash-menu ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 10pt;
+}
+
+ li a:hover{
+     background: #0041B9;
+     width: 50px;
+}
+
+.sidebar .dash-menu ul li a i.fa {
+  float: right;
+  margin-top: 6px;
+           
+    &:after {
+        
+        content: '';
+        display: block;
+        float: none;
+        clear: both;
+    }
+}
+
+.workflow-container {
+  display: block;
+  box-sizing: border-box;
+ width: 350px;
+height: 220px;
+position: relative;
+  left: -80px;
+  top: 50px;
+  border-radius: 10px;  
+  float: right;
+       
+    &:after {
+        
+        content: '';
+        display: block;
+        float: none;
+        clear: both;
+    }
+}
+
+div#statistics{
+    background-color: rgba( 24, 42, 99, 5);
+    width: 750px;
+    height: 440px;
+    border: 1px solid #7DE2EF ;
+    margin: 20px;
+    -moz-box-shadow:    3px 3px 5px 6px #0D1D44;
+    -webkit-box-shadow: 3px 3px 5px 6px #0D1D44;
+    box-shadow:         3px 3px 5px 6px #0D1D44;
+    position: relative;
+    left: 760px;
+
+}
+
+div#workflow.graph-container {
+position: absolute;
+  
+}
+
+canvas#myChart2.graph-chart{
+   position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1000;
+}
+
+
+
+.graph-container canvas {
+
+background-color: rgba(252,252,252, 0.1);
+    border-radius: 10px;
+  position: absolute;
+    
+    
+}
+
+.myChart2{
+
+    
+}
+
+
+.graph-container 
+
+
+    
+    
+}
+
+#graph{
+position: absolute;
+    
+    
+}
+
+
+
+.floati{
+    float: left;
+    position: relative;
+    left: 360px;
+    top: -100px;
+    margin-right:25px;
+           
+    &:after {
+        
+        content: '';
+        display: block;
+        float: none;
+        clear: both;
+    }
+}
+
+
+
+.floati h6{
+    font-size: 12px;
+    
+}
+
+.floati h5{
+    font-size: 16px;
+    color: #39FCCC;
+    position: relative;
+    top: -15px;
+   
+    
+}
+
+.request{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #83D3FF;
+    border-radius: 15px;
+    padding-left: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 60px;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 12px;
+    width: 100px;
+    position: relative;
+    left: 70px;
+}
+
+
+.request:hover {
+  background-color: #39FCCC;
+}
+
+
+.workflow-container canvas {
+  display: block;
+  position: static;
+background-color: rgba(252,252,252, 0.1);
+    border-radius: 10px;
+  
+    
+    
+}
+
+.btn {
+  border: none;
+  font-weight: 400;
+  font-size: 10pt;
+  box-shadow: none;
+  padding: 4px 8px;
+}
+
+.btn.success {
+  color: #fff;
+  background: #29930f;
+}
+
+
+.btn.success:hover {
+  background: #39FCCC;
+}
+
+
+.btn.success:active {
+  background: #1c650a;
+}
+
+
+.btn.danger {
+  color: #fff;
+  background: #a70000;
+}
+
+.btn.danger:hover {
+  background: #39FCCC;
+}
+
+.btn.danger:active {
+  background: #740000;
+}
+
+.btn.default {
+  color: #fff;
+  background: #499cb5;
+}
+
+
+.btn.default:hover {
+  background: #428ca3;
+}
+
+
+.btn.default:active {
+  background: #244e5a;
+}
+
+
+
+
+@import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+}
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:300);
+.fa-2x {
+font-size: 3em;
+
+}
+.fa {
+position: relative;
+display: table-cell;
+width: 60px;
+height: 36px;
+text-align: center;
+vertical-align: middle;
+font-size:20px;
+}
+
+i.fa.fa-bars.fa-2x{
+   position: relative;
+    bottom:280px;
+}
+
+
+i.fa.fa-circle.fa-2x{
+    color: #34fac9;
+    font-size:0.6rem;
+    position: absolute;
+    left: 24%;
+    top: 29.8%;
+    
+}
+
+.main-menus:hover,nav.main-menus.expanded {
+width:300px;
+overflow:visible;
+}
+
+.main-menus {
+background: #10162C;
+border-right:1px solid #e5e5e5;
+position:absolute;
+top:0;
+bottom:0;
+height:100%;
+left:0;
+width:60px;
+overflow:hidden;
+-webkit-transition:width .05s linear;
+transition:width .05s linear;
+-webkit-transform:translateZ(0) scale(1,1);
+z-index:1000;
+margin-right: 100px;
+
+}
+
+.main-menus>ul {
+margin:7px 0;
+}
+
+.main-menus li {
+position:relative;
+display:block;
+width:250px;
+}
+
+.main-menus li>a {
+position:relative;
+top: 310px;
+border-collapse:collapse;
+border-spacing:0;
+color:#34FAC9;
+ font-family: 'Ubuntu', sans-serif;
+font-size: 14px;
+text-decoration:none;
+-webkit-transform:translateZ(0) scale(1,1);
+-webkit-transition:all .1s linear;
+transition:all .1s linear;
+  
+}
+
+.main-menus .nav-icon {
+position:relative;
+display:table-cell;
+width:60px;
+height:36px;
+text-align:center;
+vertical-align:middle;
+font-size:18px;
+}
+
+.main-menus .nav-text {
+position:relative;
+display:table-cell;
+vertical-align:middle;
+width:190px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.main-menus>ul.logout {
+position:absolute;
+left:0;
+bottom:0;
+}
+
+.no-touch .scrollable.hover {
+overflow-y:hidden;
+}
+
+.no-touch .scrollable.hover:hover {
+overflow-y:auto;
+overflow:visible;
+}
+
+a:hover,a:focus {
+text-decoration:none;
+color: red;
+}
+
+nav {
+-webkit-user-select:none;
+-moz-user-select:none;
+-ms-user-select:none;
+-o-user-select:none;
+user-select:none;
+}
+
+nav ul,nav li {
+outline:0;
+margin:0;
+padding:0;
+}
+.main-menus li:hover>a,nav.main-menus li.active>a,.dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus,.dropdown-menu>.active>a,.dropdown-menu>.active>a:hover,.dropdown-menu>.active>a:focus,.no-touch .dashboard-page nav.dashboard-menu ul li:hover a,.dashboard-page nav.dashboard-menu ul li.active a {
+color:#fff;
+background-color:#5fa2db;
+}
+.area {
+float: left;
+background: #e2e2e2;
+width: 100%;
+height: 100%;
+           
+    &:after {
+        
+        content: '';
+        display: block;
+        float: none;
+        clear: both;
+    }
+}

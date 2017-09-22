@@ -1,0 +1,18 @@
+.sub-menu {
+  display: block;
+  position: fixed;
+  width: 12.5%;
+  height: 100%;
+  left:0;
+  top:0;
+  background: #10162C;
+  box-sizing: inherit;
+  
+  @include medium {
+    width: 25%;
+  }
+  
+  @include small {
+    position: static;
+    width: 100%;
+  }
